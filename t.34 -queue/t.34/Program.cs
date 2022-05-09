@@ -34,8 +34,6 @@ namespace Homework
             buyers.Enqueue(400);
             buyers.Enqueue(700);
             buyers.Enqueue(1800);
-
-
         }
 
         static int CountMoney(Queue<int> buyers, out int sum, int revenue)
