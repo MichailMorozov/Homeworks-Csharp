@@ -9,13 +9,13 @@ namespace Homework
             bool isWork = true;
             bool sucess = false;
             int value = 0;
-            
+
             List<int> numbers = new List<int>();
 
             while (isWork)
             {
                 ShowMenu();
-                
+
                 var userInput = Console.ReadLine();
 
                 sucess = int.TryParse(userInput, out value);
