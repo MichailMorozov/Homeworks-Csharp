@@ -33,7 +33,6 @@ namespace Homework
                     case "4":
                         isWork = false;
                         break;
-
                 }
 
                 Console.ReadKey();
